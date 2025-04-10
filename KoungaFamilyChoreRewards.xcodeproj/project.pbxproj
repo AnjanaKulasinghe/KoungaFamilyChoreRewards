@@ -13,6 +13,7 @@
 		0D36E5522DA728DD0090D0F2 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 0D36E5512DA728DD0090D0F2 /* FirebaseMessaging */; };
 		0D36E5542DA728DD0090D0F2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0D36E5532DA728DD0090D0F2 /* FirebaseStorage */; };
 		0D36E5992DA733E20090D0F2 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0D36E5982DA733E20090D0F2 /* SDWebImageSwiftUI */; };
+		4F667CC1FCA91AF65E7F47F3 /* Pods_KoungaFamilyChoreRewards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A33844E989A64B97EEAEB7 /* Pods_KoungaFamilyChoreRewards.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,9 @@
 		0D36E51A2DA727430090D0F2 /* KoungaFamilyChoreRewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoungaFamilyChoreRewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D36E5272DA727480090D0F2 /* KoungaFamilyChoreRewardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoungaFamilyChoreRewardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D36E5312DA727480090D0F2 /* KoungaFamilyChoreRewardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoungaFamilyChoreRewardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DBCCFBB527C748934341C19 /* Pods-KoungaFamilyChoreRewards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoungaFamilyChoreRewards.release.xcconfig"; path = "Target Support Files/Pods-KoungaFamilyChoreRewards/Pods-KoungaFamilyChoreRewards.release.xcconfig"; sourceTree = "<group>"; };
+		64A33844E989A64B97EEAEB7 /* Pods_KoungaFamilyChoreRewards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoungaFamilyChoreRewards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDADC1CB93074CEF0FC73295 /* Pods-KoungaFamilyChoreRewards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoungaFamilyChoreRewards.debug.xcconfig"; path = "Target Support Files/Pods-KoungaFamilyChoreRewards/Pods-KoungaFamilyChoreRewards.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -67,11 +71,15 @@
 		};
 		0D36E52A2DA727480090D0F2 /* KoungaFamilyChoreRewardsTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = KoungaFamilyChoreRewardsTests;
 			sourceTree = "<group>";
 		};
 		0D36E5342DA727480090D0F2 /* KoungaFamilyChoreRewardsUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = KoungaFamilyChoreRewardsUITests;
 			sourceTree = "<group>";
 		};
@@ -88,6 +96,7 @@
 				0D36E54E2DA728DD0090D0F2 /* FirebaseAuthCombine-Community in Frameworks */,
 				0D36E5542DA728DD0090D0F2 /* FirebaseStorage in Frameworks */,
 				0D36E5502DA728DD0090D0F2 /* FirebaseFirestore in Frameworks */,
+				4F667CC1FCA91AF65E7F47F3 /* Pods_KoungaFamilyChoreRewards.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +124,8 @@
 				0D36E52A2DA727480090D0F2 /* KoungaFamilyChoreRewardsTests */,
 				0D36E5342DA727480090D0F2 /* KoungaFamilyChoreRewardsUITests */,
 				0D36E51B2DA727430090D0F2 /* Products */,
+				3FAEB81F0E09E067DB982DDC /* Pods */,
+				765BB16BDA9EE100483A9DD9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +139,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3FAEB81F0E09E067DB982DDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDADC1CB93074CEF0FC73295 /* Pods-KoungaFamilyChoreRewards.debug.xcconfig */,
+				1DBCCFBB527C748934341C19 /* Pods-KoungaFamilyChoreRewards.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		765BB16BDA9EE100483A9DD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64A33844E989A64B97EEAEB7 /* Pods_KoungaFamilyChoreRewards.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D36E53B2DA727480090D0F2 /* Build configuration list for PBXNativeTarget "KoungaFamilyChoreRewards" */;
 			buildPhases = (
+				4C5ADBD63E592BA55FE41E27 /* [CP] Check Pods Manifest.lock */,
 				0D36E5162DA727430090D0F2 /* Sources */,
 				0D36E5172DA727430090D0F2 /* Frameworks */,
 				0D36E5182DA727430090D0F2 /* Resources */,
+				9E3F70A34A1D15CB28A07CE5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,8 +207,6 @@
 				0D36E52A2DA727480090D0F2 /* KoungaFamilyChoreRewardsTests */,
 			);
 			name = KoungaFamilyChoreRewardsTests;
-			packageProductDependencies = (
-			);
 			productName = KoungaFamilyChoreRewardsTests;
 			productReference = 0D36E5272DA727480090D0F2 /* KoungaFamilyChoreRewardsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -199,8 +228,6 @@
 				0D36E5342DA727480090D0F2 /* KoungaFamilyChoreRewardsUITests */,
 			);
 			name = KoungaFamilyChoreRewardsUITests;
-			packageProductDependencies = (
-			);
 			productName = KoungaFamilyChoreRewardsUITests;
 			productReference = 0D36E5312DA727480090D0F2 /* KoungaFamilyChoreRewardsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -276,6 +303,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C5ADBD63E592BA55FE41E27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoungaFamilyChoreRewards-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E3F70A34A1D15CB28A07CE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoungaFamilyChoreRewards/Pods-KoungaFamilyChoreRewards-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoungaFamilyChoreRewards/Pods-KoungaFamilyChoreRewards-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KoungaFamilyChoreRewards/Pods-KoungaFamilyChoreRewards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0D36E5162DA727430090D0F2 /* Sources */ = {
@@ -438,6 +507,7 @@
 		};
 		0D36E53C2DA727480090D0F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDADC1CB93074CEF0FC73295 /* Pods-KoungaFamilyChoreRewards.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +536,7 @@
 		};
 		0D36E53D2DA727480090D0F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DBCCFBB527C748934341C19 /* Pods-KoungaFamilyChoreRewards.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
