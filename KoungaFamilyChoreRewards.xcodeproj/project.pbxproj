@@ -16,6 +16,7 @@
 		0D36E5522DA728DD0090D0F2 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 0D36E5512DA728DD0090D0F2 /* FirebaseMessaging */; };
 		0D36E5542DA728DD0090D0F2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0D36E5532DA728DD0090D0F2 /* FirebaseStorage */; };
 		0D36E5992DA733E20090D0F2 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0D36E5982DA733E20090D0F2 /* SDWebImageSwiftUI */; };
+		0D786B712DA86E0E0096B6C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D786B702DA86E0E0096B6C4 /* GoogleService-Info.plist */; };
 		4F667CC1FCA91AF65E7F47F3 /* Pods_KoungaFamilyChoreRewards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A33844E989A64B97EEAEB7 /* Pods_KoungaFamilyChoreRewards.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		0D36E51A2DA727430090D0F2 /* KoungaFamilyChoreRewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoungaFamilyChoreRewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D36E5272DA727480090D0F2 /* KoungaFamilyChoreRewardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoungaFamilyChoreRewardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D36E5312DA727480090D0F2 /* KoungaFamilyChoreRewardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoungaFamilyChoreRewardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D786B702DA86E0E0096B6C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1DBCCFBB527C748934341C19 /* Pods-KoungaFamilyChoreRewards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoungaFamilyChoreRewards.release.xcconfig"; path = "Target Support Files/Pods-KoungaFamilyChoreRewards/Pods-KoungaFamilyChoreRewards.release.xcconfig"; sourceTree = "<group>"; };
 		64A33844E989A64B97EEAEB7 /* Pods_KoungaFamilyChoreRewards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoungaFamilyChoreRewards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDADC1CB93074CEF0FC73295 /* Pods-KoungaFamilyChoreRewards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoungaFamilyChoreRewards.debug.xcconfig"; path = "Target Support Files/Pods-KoungaFamilyChoreRewards/Pods-KoungaFamilyChoreRewards.debug.xcconfig"; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 		0D36E5112DA727430090D0F2 = {
 			isa = PBXGroup;
 			children = (
+				0D786B702DA86E0E0096B6C4 /* GoogleService-Info.plist */,
 				0D16E6022DA86B510029889F /* Podfile */,
 				0D36E51B2DA727430090D0F2 /* Products */,
 				3FAEB81F0E09E067DB982DDC /* Pods */,
@@ -324,6 +327,7 @@
 			files = (
 				0D16E6032DA86B510029889F /* Podfile in Resources */,
 				0D16E5FE2DA86B270029889F /* Assets.xcassets in Resources */,
+				0D786B712DA86E0E0096B6C4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
