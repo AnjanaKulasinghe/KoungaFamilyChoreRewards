@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		0D16E5F12DA86B270029889F /* KoungaFamilyChoreRewardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D16E5E22DA86B270029889F /* KoungaFamilyChoreRewardsApp.swift */; };
 		0D16E5FE2DA86B270029889F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D16E5E02DA86B270029889F /* Assets.xcassets */; };
-		0D16E5FF2DA86B270029889F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D16E5E12DA86B270029889F /* GoogleService-Info.plist */; };
-		0D16E6002DA86B270029889F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D16E5E12DA86B270029889F /* GoogleService-Info.plist */; };
-		0D16E6012DA86B270029889F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D16E5E12DA86B270029889F /* GoogleService-Info.plist */; };
 		0D16E6032DA86B510029889F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0D16E6022DA86B510029889F /* Podfile */; };
 		0D36E54C2DA728DD0090D0F2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0D36E54B2DA728DD0090D0F2 /* FirebaseAuth */; };
 		0D36E54E2DA728DD0090D0F2 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 0D36E54D2DA728DD0090D0F2 /* FirebaseAuthCombine-Community */; };
@@ -41,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		0D16E5E02DA86B270029889F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0D16E5E12DA86B270029889F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0D16E5E22DA86B270029889F /* KoungaFamilyChoreRewardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoungaFamilyChoreRewardsApp.swift; sourceTree = "<group>"; };
 		0D16E6022DA86B510029889F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		0D36E51A2DA727430090D0F2 /* KoungaFamilyChoreRewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoungaFamilyChoreRewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,7 +169,6 @@
 				0D16E6182DA86B990029889F /* ViewModels */,
 				0D16E62D2DA86B990029889F /* Views */,
 				0D16E5E02DA86B270029889F /* Assets.xcassets */,
-				0D16E5E12DA86B270029889F /* GoogleService-Info.plist */,
 				0D16E5E22DA86B270029889F /* KoungaFamilyChoreRewardsApp.swift */,
 			);
 			sourceTree = "<group>";
@@ -329,7 +324,6 @@
 			files = (
 				0D16E6032DA86B510029889F /* Podfile in Resources */,
 				0D16E5FE2DA86B270029889F /* Assets.xcassets in Resources */,
-				0D16E5FF2DA86B270029889F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +331,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D16E6002DA86B270029889F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +338,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D16E6012DA86B270029889F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
