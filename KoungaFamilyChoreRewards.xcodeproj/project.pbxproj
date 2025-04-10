@@ -20,30 +20,11 @@
 		4F667CC1FCA91AF65E7F47F3 /* Pods_KoungaFamilyChoreRewards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A33844E989A64B97EEAEB7 /* Pods_KoungaFamilyChoreRewards.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0D36E5282DA727480090D0F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0D36E5122DA727430090D0F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D36E5192DA727430090D0F2;
-			remoteInfo = KoungaFamilyChoreRewards;
-		};
-		0D36E5322DA727480090D0F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0D36E5122DA727430090D0F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D36E5192DA727430090D0F2;
-			remoteInfo = KoungaFamilyChoreRewards;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		0D16E5E02DA86B270029889F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D16E5E22DA86B270029889F /* KoungaFamilyChoreRewardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoungaFamilyChoreRewardsApp.swift; sourceTree = "<group>"; };
 		0D16E6022DA86B510029889F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		0D36E51A2DA727430090D0F2 /* KoungaFamilyChoreRewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoungaFamilyChoreRewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D36E5272DA727480090D0F2 /* KoungaFamilyChoreRewardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoungaFamilyChoreRewardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D36E5312DA727480090D0F2 /* KoungaFamilyChoreRewardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoungaFamilyChoreRewardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D786B702DA86E0E0096B6C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1DBCCFBB527C748934341C19 /* Pods-KoungaFamilyChoreRewards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoungaFamilyChoreRewards.release.xcconfig"; path = "Target Support Files/Pods-KoungaFamilyChoreRewards/Pods-KoungaFamilyChoreRewards.release.xcconfig"; sourceTree = "<group>"; };
 		64A33844E989A64B97EEAEB7 /* Pods_KoungaFamilyChoreRewards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoungaFamilyChoreRewards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,20 +123,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0D36E5242DA727480090D0F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D36E52E2DA727480090D0F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -180,8 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				0D36E51A2DA727430090D0F2 /* KoungaFamilyChoreRewards.app */,
-				0D36E5272DA727480090D0F2 /* KoungaFamilyChoreRewardsTests.xctest */,
-				0D36E5312DA727480090D0F2 /* KoungaFamilyChoreRewardsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,42 +201,6 @@
 			productReference = 0D36E51A2DA727430090D0F2 /* KoungaFamilyChoreRewards.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0D36E5262DA727480090D0F2 /* KoungaFamilyChoreRewardsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0D36E53E2DA727480090D0F2 /* Build configuration list for PBXNativeTarget "KoungaFamilyChoreRewardsTests" */;
-			buildPhases = (
-				0D36E5232DA727480090D0F2 /* Sources */,
-				0D36E5242DA727480090D0F2 /* Frameworks */,
-				0D36E5252DA727480090D0F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0D36E5292DA727480090D0F2 /* PBXTargetDependency */,
-			);
-			name = KoungaFamilyChoreRewardsTests;
-			productName = KoungaFamilyChoreRewardsTests;
-			productReference = 0D36E5272DA727480090D0F2 /* KoungaFamilyChoreRewardsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0D36E5302DA727480090D0F2 /* KoungaFamilyChoreRewardsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0D36E5412DA727480090D0F2 /* Build configuration list for PBXNativeTarget "KoungaFamilyChoreRewardsUITests" */;
-			buildPhases = (
-				0D36E52D2DA727480090D0F2 /* Sources */,
-				0D36E52E2DA727480090D0F2 /* Frameworks */,
-				0D36E52F2DA727480090D0F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0D36E5332DA727480090D0F2 /* PBXTargetDependency */,
-			);
-			name = KoungaFamilyChoreRewardsUITests;
-			productName = KoungaFamilyChoreRewardsUITests;
-			productReference = 0D36E5312DA727480090D0F2 /* KoungaFamilyChoreRewardsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -284,14 +213,6 @@
 				TargetAttributes = {
 					0D36E5192DA727430090D0F2 = {
 						CreatedOnToolsVersion = 16.3;
-					};
-					0D36E5262DA727480090D0F2 = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 0D36E5192DA727430090D0F2;
-					};
-					0D36E5302DA727480090D0F2 = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 0D36E5192DA727430090D0F2;
 					};
 				};
 			};
@@ -314,8 +235,6 @@
 			projectRoot = "";
 			targets = (
 				0D36E5192DA727430090D0F2 /* KoungaFamilyChoreRewards */,
-				0D36E5262DA727480090D0F2 /* KoungaFamilyChoreRewardsTests */,
-				0D36E5302DA727480090D0F2 /* KoungaFamilyChoreRewardsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -328,20 +247,6 @@
 				0D16E6032DA86B510029889F /* Podfile in Resources */,
 				0D16E5FE2DA86B270029889F /* Assets.xcassets in Resources */,
 				0D786B712DA86E0E0096B6C4 /* GoogleService-Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D36E5252DA727480090D0F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D36E52F2DA727480090D0F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,34 +307,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0D36E5232DA727480090D0F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D36E52D2DA727480090D0F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0D36E5292DA727480090D0F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0D36E5192DA727430090D0F2 /* KoungaFamilyChoreRewards */;
-			targetProxy = 0D36E5282DA727480090D0F2 /* PBXContainerItemProxy */;
-		};
-		0D36E5332DA727480090D0F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0D36E5192DA727430090D0F2 /* KoungaFamilyChoreRewards */;
-			targetProxy = 0D36E5322DA727480090D0F2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0D36E5392DA727480090D0F2 /* Debug */ = {
@@ -611,78 +489,6 @@
 			};
 			name = Release;
 		};
-		0D36E53F2DA727480090D0F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 229ULZV87R;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AJ-Games.KoungaFamilyChoreRewardsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KoungaFamilyChoreRewards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KoungaFamilyChoreRewards";
-			};
-			name = Debug;
-		};
-		0D36E5402DA727480090D0F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 229ULZV87R;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AJ-Games.KoungaFamilyChoreRewardsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KoungaFamilyChoreRewards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KoungaFamilyChoreRewards";
-			};
-			name = Release;
-		};
-		0D36E5422DA727480090D0F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 229ULZV87R;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AJ-Games.KoungaFamilyChoreRewardsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KoungaFamilyChoreRewards;
-			};
-			name = Debug;
-		};
-		0D36E5432DA727480090D0F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 229ULZV87R;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AJ-Games.KoungaFamilyChoreRewardsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KoungaFamilyChoreRewards;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -700,24 +506,6 @@
 			buildConfigurations = (
 				0D36E53C2DA727480090D0F2 /* Debug */,
 				0D36E53D2DA727480090D0F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0D36E53E2DA727480090D0F2 /* Build configuration list for PBXNativeTarget "KoungaFamilyChoreRewardsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0D36E53F2DA727480090D0F2 /* Debug */,
-				0D36E5402DA727480090D0F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0D36E5412DA727480090D0F2 /* Build configuration list for PBXNativeTarget "KoungaFamilyChoreRewardsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0D36E5422DA727480090D0F2 /* Debug */,
-				0D36E5432DA727480090D0F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
